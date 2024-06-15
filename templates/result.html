@@ -1,0 +1,49 @@
+<!-- result.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2; /* Light gray background */
+            padding: 20px;
+            text-align: center; /* Center align text */
+        }
+        h1 {
+            font-size: 36px; /* Large heading size */
+            color: #333; /* Dark gray text color */
+        }
+        .result {
+            font-size: 24px; /* Larger font size for result */
+            margin-top: 20px;
+            background-color: #fff; /* White background for result section */
+            padding: 20px;
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for box */
+        }
+        .back-link {
+            margin-top: 20px;
+            font-size: 18px; /* Smaller font size for link */
+            text-decoration: none;
+            color: #007bff; /* Blue color for link */
+            display: inline-block;
+            border-bottom: 1px solid #007bff; /* Underline effect on hover */
+            padding-bottom: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Prediction Result</h1>
+        <div class="result">
+            <p><strong>Label:</strong> {{ label }}</p>
+        </div>
+        
+        <p class="back-link"><a href="/">Back to Home</a></p>
+    </div>
+</body>
+</html>
